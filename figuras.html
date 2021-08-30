@@ -7,9 +7,73 @@
     <title>Figuras Geométricas</title>
 </head>
 <body>
-    <center>
-    <h1>Calculo de las figuras </h1>
-    </center>
+    <header>
+        <center>
+        <h1>📐Calculo de figuras geometricas </h1>
+        <p>Primer curso practico de Js</p>
+        </center>
+    </header>
+    <section>
+        <h2>Calcular el área y perímetro de un Cuadrado</h2>
+        <form backgound="green">
+            <label for="inputCuadrado">
+                Escribe el lado del cuadrado
+            </label>
+            <input id="inputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el Perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el Área
+            </button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcular el área y perímetro de un Triangulo</h2>
+        <form backgound="green">
+            <label for="inputCuadrado">
+                Escribe el lado del Triangulo
+            </label>
+            <input id="inputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el Perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el Área
+            </button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcular el área y perímetro de un Circulo</h2>
+        <form backgound="green">
+            <label for="inputCuadrado">
+                Escribe el lado del circulo
+            </label>
+            <input id="inputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular el Perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el Área
+            </button>
+        </form>
+    </section>
+    <section>
+        <h2>Calcular el área y perímetro de un Triangulo Isoseles</h2>
+        <form >
+            <label for="inputCuadrado">
+                Escribe el lado del circulo
+            </label>
+            <input id="inputCuadrado" type="number">
+            <button type="button" onclick="calcularPerimetroIsoseles()">
+                Calcular el Perímetro
+            </button>
+            <button type="button" onclick="calcularAreaIsoseles()">
+                Calcular el Área
+            </button>
+        </form>
+    </section>
     <script src="figuras.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
